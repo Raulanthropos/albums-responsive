@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+      integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <title>Albums</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="#">Albums</a>
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#favorite-albums">Album List<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#favorite">Album Review</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#hall-of-shame">Shame</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#carouselExampleIndicators">Album Carousel</a>
+              </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      <div id="favorite-albums" class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                <div class="card h-100">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/c/cf/Sepultura_-_Roots.jpg" class="card-img-top" alt="Roots">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Album name:</strong> Roots</h5>
+                        <p class="card-text"><strong>Band name:</strong> Sepultura</p>
+                        <p class="card-text"><strong>Genre:</strong> Heavy Metal</p>
+                        <p class="card-text"><strong>Duration:</strong> 1h12m</p>
+                        <a href="#" class="btn btn-primary">Home</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                <div class="card h-100">
+                    <img src="https://i.scdn.co/image/ab67616d0000b27318c88d3529b613dd7fd38b78" class="card-img-top" alt="Beyond Hamsterdam">
+                    <div class="card-body">
+                      <h5 class="card-title"><strong>Album name:</strong> Beyond Hamsterdam - Baltimore tracks from The Wire</h5>
+                      <p class="card-text"><strong>Band name:</strong> Various</p>
+                      <p class="card-text"><strong>Genre:</strong> Various</p>
+                      <p class="card-text"><strong>Duration:</strong> 1h14m</p>
+                      <a href="#" class="btn btn-primary">Home</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                <div class="card h-100">
+                    <img src="https://unitedelements.gr/wp-content/uploads/2018/05/jt.png" class="card-img-top" alt="Spirta se piromani">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Album name:</strong> Matches to a pyromaniac</h5>
+                        <p class="card-text"><strong>Band name:</strong> Taburo Rota</p>
+                        <p class="card-text"><strong>Genre:</strong> Hip-Hop</p>
+                        <p class="card-text"><strong>Duration:</strong> 57m</p>
+                        <a href="#" class="btn btn-primary">Home</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                <div class="card h-100">
+                    <img src="https://f4.bcbits.com/img/a3013837430_10.jpg" class="card-img-top" alt="Ta matia twn pnigmenwn">
+                    <div class="card-body">
+                      <h5 class="card-title"><strong>Album name:</strong> The invisible troupe</h5>
+                      <p class="card-text"><strong>Band name:</strong> Psychodrama</p>
+                      <p class="card-text"><strong>Genre:</strong> Hip-Hop</p>
+                      <p class="card-text"><strong>Duration:</strong> 1h48m</p>
+                      <a href="#" class="btn btn-primary">Home</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+      </div>
+      <div id="favorite" class="card mb-3 mt-5" style="max-width: 768px; margin-inline: auto;">
+        <img src="https://upload.wikimedia.org/wikipedia/en/f/fd/Endofanera.jpg" class="card-img-top" alt="End of an era">
+        <div class="card-body">
+          <h5 class="card-title">End of an Era</h5>
+          <ul class="list-group">
+            <li class="list-group-item">Dark Chest of Wonders</li>
+            <li class="list-group-item">Planet Hell</li>
+            <li class="list-group-item">Ever Dream</li>
+            <li class="list-group-item">The Kinslayer</li>
+            <li class="list-group-item">The Phantom Of The Opera</li>
+            <li class="list-group-item">The Siren</li>
+            <li class="list-group-item">Sleeping Sun</li>
+            <li class="list-group-item">High Hopes</li>
+            <li class="list-group-item">Bless The Child</li>
+            <li class="list-group-item">Wishmaster</li>
+            <li class="list-group-item">Slaying The Dreamer</li>
+            <li class="list-group-item">Kuolema Tekee Taiteilijan</li>
+            <li class="list-group-item">Nemo</li>
+            <li class="list-group-item">Ghost Love Score</li>
+            <li class="list-group-item">Stone People</li>
+            <li class="list-group-item">Creek Mary's Blood</li>
+            <li class="list-group-item">Over The Hills And Far Away</li>
+            <li class="list-group-item">Wish I Had An Angel</li>
+            <li class="list-group-item">All Of Them</li>
+          </ul>
+          <p class="card-text mt-3">Probably the best album ever released - it is recorded live tracks, from the band's last live performance with Tarja Turunen as the lead signer.</p>
+        </div>
+      </div>
+      <div class="card-group">
+        <h2 id="hall-of-shame" class="col-12 mt-5 mb-3" style="text-align: center;">Hall of shame</h2>
+        <div class="card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn5RfJNQGXfHqb-IFUjruRBybZi0ltgsKbEQyYdquSInM-gDvvQSViZSY4tYctRE06YjU&usqp=CAU" class="card-img-top" alt="Mysterious man - fake album">
+          <div class="card-body">
+            <h5 class="card-title">Mysterious man - fake album</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQszZnQQ0uQox_L660fTT7v_al6AF-C3YVIbcVR1RY7QKEtFJJzraWyjmUMlIw3RcGVbZI&usqp=CAU" class="card-img-top" alt="Foster the People - fake album">
+          <div class="card-body">
+            <h5 class="card-title">Foster the People - fake album</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKLEXVA9VvewvdJflIH1M11pXyB03VfSDxjDxx_ndqYOapreWmhUM6mjkvi9uqa45M9Sg&usqp=CAU" class="card-img-top" alt="Parental Advisory - fake album">
+          <div class="card-body">
+            <h5 class="card-title">Parental Advisory - fake album</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+        </div>
+      </div>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner justify-content-center">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="https://images.unsplash.com/photo-1500099817043-86d46000d58f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://images.unsplash.com/photo-1578393098337-5594cce112da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=617&q=80" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://images.unsplash.com/photo-1604367233962-bce0799fbe9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="Fourth slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://images.unsplash.com/photo-1570744389406-f9dcdcb67ba8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80" alt="Fifth slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://images.unsplash.com/photo-1605478361938-2e562284e3d9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="Sixth slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://images.unsplash.com/photo-1538113300105-e51e4560b4aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80" alt="Seventh slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://images.unsplash.com/photo-1503249023995-51b0f3778ccf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=660&q=80" alt="Eight slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://images.unsplash.com/photo-1494232410401-ad00d5433cfa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Ninth slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://images.unsplash.com/flagged/photo-1572392640988-ba48d1a74457?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="Tenth slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://images.unsplash.com/photo-1634840647821-60afb369d28d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=626&q=80" alt="Eleventh slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://images.unsplash.com/photo-1631339654928-529ec90d5c63?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80" alt="Twelveth slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="Thirteenth slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://images.unsplash.com/photo-1571115764595-644a1f56a55c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=741&q=80" alt="Fourteenth slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://images.unsplash.com/photo-1556463809-58977c8f5402?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Fifteenth slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://images.unsplash.com/photo-1605710990211-50b342b318ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="Sixteenth slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://images.unsplash.com/photo-1505356822725-08ad25f3ffe4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="Seventeenth slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://images.unsplash.com/photo-1501472266257-6fbdb19654ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="Eighteenth slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://images.unsplash.com/photo-1533894632201-916419cb4a39?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="Nineteenth slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://images.unsplash.com/photo-1542772144-515ddfae17e9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80" alt="Twentieth slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <footer class="page-footer font-small blue pt-4">
+
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left">
+      
+          <!-- Grid row -->
+          <div class="row">
+      
+            <!-- Grid column -->
+            <div class="col-md-6 mt-md-0 mt-3">
+      
+              <!-- Content -->
+              <h5 class="text-uppercase">Some useful links can be found here!</h5>
+    
+            </div>
+            <!-- Grid column -->
+      
+            <hr class="clearfix w-100 d-md-none pb-3">
+    
+            <!-- Grid column -->
+            <div class="col-md-3 mb-md-0 mb-3">
+      
+              <!-- Links -->
+              <h5 class="text-uppercase">Links</h5>
+      
+              <ul class="list-unstyled">
+                <li>
+                  <a href="https://mdbootstrap.com/docs/b4/jquery/navigation/footer/">Footer example</a>
+                </li>
+                <li>
+                  <a href="https://epicode.com/">Hogwarts</a>
+                </li>
+                <li>
+                  <a href="https://www.google.com/">Best friend</a>
+                </li>
+                <li>
+                  <a href="#">Home</a>
+                </li>
+              </ul>
+      
+            </div>
+            <!-- Grid column -->
+      
+          </div>
+          <!-- Grid row -->
+      
+        </div>
+        <!-- Footer Links -->
+      
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2022
+          <a href="/">Ioannis Psychias</a>
+        </div>
+        <!-- Copyright -->
+      
+      </footer>
+      <!-- Footer -->
+  </body>
+</html>
