@@ -7,4 +7,6 @@ links.
 
 The page is fully responsive.
 
+Updated! Added tracklist, modal window and delete buttons. Work in progress.
+
 #### The link to the project: https://45634a8d.albums-responsive.pages.dev/
